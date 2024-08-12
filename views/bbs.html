@@ -10,7 +10,7 @@
   <span id="status">network status</span>
   <button id="openModal">設定</button>
   <div class="example4"><h1>掲示板</h1></div>
-    このインスタンスは苺大福が作成した物です。<br />
+    このインスタンスは苺大福が作成した物です,一部改造してあります。<br />
   <select name="channel" id="channel">
     <option value="main">雑談</option>
     <option value="battle">バトスタ</option>
@@ -21,12 +21,12 @@
   <label for="message"></label>
   <textarea id="message" rows="6" required></textarea>
   <br>
-  <button onclick="sendMessageByUser()">送信</button>
+  <button onclick="sendMessageByUser()">~送信~</button>
   <br>
   <div id="modalOverlay">
     <div id="modal">
       <button id="closeModal">閉じる</button>
-      <h3>設定</h3>
+      <h3>~設定~</h3>
       <label for="name">名前</label>
       <input type="text" id="name" value="" maxlength="25" required>　
       <label for="seed">シード</label>
@@ -37,12 +37,13 @@
       <br>
       <label for="font">フォント:</label>
       <select name="font" id="font-select">
+        <option value="Times New Roman">Times New Roman</option>
+        <option value="Hiragino Maru Gothic ProN">Hiragino Maru Gothic ProN/option>
         <option value="">default</option>
         <option value="Monospace">Monospace</option>
         <option value="Arial">Arial</option>
-        <option value="Helvetica">Helvetica</option>
-        <option value="Times New Roman">Times New Roman</option>
-        <option value="Verdana">Verdana</option>
+        <option value="Helvetica">Helvetica</optio>
+        <option value="Verdana">Verdana</optio>
       </select>
       <br>
       <label for="font-size">フォントサイズ:</label>
